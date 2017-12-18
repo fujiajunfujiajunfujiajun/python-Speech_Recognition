@@ -9,7 +9,7 @@ except ImportError:
     try:
         from cStringIO import StringIO
     except ImportError:
-        from StringIO import StringIO
+        from io import StringIO
 
 from ConfigFileInfoParser.InitializationConfigParser import InitializationConfigParser
 from WaveOperate.Sonic import *

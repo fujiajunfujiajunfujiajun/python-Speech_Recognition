@@ -9,7 +9,7 @@ except ImportError:
     try:
         from cStringIO import StringIO
     except ImportError:
-        from StringIO import StringIO
+        from io import StringIO
 from WaveOperate.WaveFilter import *
 from BaiduSpeech.SpeechRecognizer import *
 
